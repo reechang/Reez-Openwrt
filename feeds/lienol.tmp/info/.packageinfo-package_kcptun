@@ -1,0 +1,39 @@
+Source-Makefile: feeds/lienol/package/kcptun/Makefile
+
+Package: kcptun-client
+Version: 20200226-2
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Repository: base
+Title: Kcptun is a cross-platform proxy software
+Maintainer: 
+Source: kcptun-linux--20200226.tar.gz
+Type: ipkg
+Description: Kcptun is a cross-platform proxy software
+https://github.com/xtaci/kcptun
+
+@@
+
+Package: kcptun-server
+Version: 20200226-2
+Depends: +libc +GCC_LIBSSP:libssp +USE_GLIBC:librt +USE_GLIBC:libpthread 
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Repository: base
+Title: Kcptun is a cross-platform proxy software
+Maintainer: 
+Source: kcptun-linux--20200226.tar.gz
+Type: ipkg
+Description: Kcptun is a cross-platform proxy software
+https://github.com/xtaci/kcptun
+
+@@
+
+
